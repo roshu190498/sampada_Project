@@ -49,7 +49,7 @@ router.get('/', (request, response) => {
 })
 
 router.post('/login', (request, response) => {
-    console.log('Loging in ')
+    console.log('Loginggggggggggggg in ')
     const {email, password} = request.body
     const connection = db.connect()
     const statement = `select * from User where email = '${email}' and password = '${password}'`
